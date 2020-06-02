@@ -37,7 +37,7 @@ map3= [
 CLOCK=pygame.time.Clock()
 
 pygame.init()
-screen = gameWindow.gameWindow(640, 480, "Ultima Tenebris")
+screen = gameWindow.gameWindow(640, 480, "Permidi Raycast Tutorial")
 screen.loadMapSegment(map3)
 #screen.placePlayer(1.5*screen.TILE_SIZE, 2.5*screen.TILE_SIZE, 0)
 screen.placePlayer(100, 160, screen.ANGLE90)
@@ -45,8 +45,8 @@ screen.placePlayer(100, 160, screen.ANGLE90)
 #the following toggle options
 screen.toggleFloor()        # doDrawFloor defaults off, toggle it on
 screen.toggleBackground()   # doDrawBackground defaults off, toggle it on
-screen.toggleCeiling()   # doDrawBackground defaults off, toggle it on
-screen.toggleShadow()   # doDrawBackground defaults off, toggle it on
+#screen.toggleCeiling()   # doDrawBackground defaults off, toggle it on
+#screen.toggleShadow()   # doDrawBackground defaults off, toggle it on
 
 # initialize movement keys
 move_trigger = 0
